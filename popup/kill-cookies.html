@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/popup/kill-cookies.css" />
+</head>
+
+<body>
+
+	<div class="panel">
+		<div class="button message" id="killAllCookies">
+			<img src="/icons/killall.png" />
+			__MSG_killAllCookies__
+		</div>
+		<div class="button message" id="killAllButIgnored">
+			<img src="/icons/killallbutignored.png" />
+			__MSG_killAllButIgnored__
+		</div>
+		<div class="button message" id="killAllButCurrent" hidden="true">
+			<img src="/icons/killallbutcurrent.png" />
+			__MSG___
+		</div>
+		<div class="button message" id="killCurrent" hidden="true">
+			<img src="/icons/killsingle.png" />
+			__MSG___
+		</div>
+		<div class="panel-section-separator"></div>
+		<div id="list-cookies"></div>
+	</div>
+	<script src="/scripts/handler.js"></script>
+	<script src="/scripts/messages.js"></script>
+	<script src="/popup/kill-cookies.js"></script>
+</body>
+
+</html>

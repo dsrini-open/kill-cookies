@@ -1,0 +1,17 @@
+label {
+	width: 250px;
+	display: block;
+}
+
+.hidden {
+  	display: none
+}
+
+.option {
+    padding: 5px;
+    border:1px solid #ffffff;
+  	margin-bottom: 5px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,36 @@
+{
+	"author": "dsrini.open",
+    "version": "1.0",
+	"manifest_version": 2,
+	"name": "__MSG_extensionName__",
+	"description": "__MSG_extensionDescription__",
+	"default_locale": "en",
+	"applications": {
+		"gecko": {
+			"id": "cookiekiller@dsrini-open.com",
+			"strict_min_version": "53"
+		}
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_title": "__MSG_extensionName__",
+		"default_popup": "popup/kill-cookies.html",
+		"default_icon": {
+			"32": "icons/kill-cookies.png"
+		}
+	},
+	"options_ui": {
+		"browser_style": true,
+		"page": "option/option.html"
+	},
+	"icons": {
+		"32": "icons/kill-cookies.png"
+	},
+	"permissions": [
+		"browsingData",
+		"cookies",
+		"storage",
+		"<all_urls>",
+		"tabs"
+	]
+}

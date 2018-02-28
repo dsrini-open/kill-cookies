@@ -1,0 +1,64 @@
+{
+  "emptyCookies": {
+    "message": "Sin cookies en sesión.",
+    "description": ""
+  },
+  
+  "extensionName": {
+    "message": "Mata a las cookies para el navegador",
+    "description": ""
+  },
+
+  "extensionDescription": {
+    "message": "Permite al usuario matar las cookies por selección / todo",
+    "description": ""
+  },
+  
+  "killAllCookies": {
+    "message": "Mata a todas las galletas",
+    "description": ""
+  },
+  
+  "killAllButIgnored": {
+    "message": "Mata a todos menos ignorados",
+    "description": ""
+  },
+  
+  "killAllButCurrent": {
+    "message": "Mata a todos menos $CURRENT$",
+    "description": "",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "killCurrent": {
+    "message": "Mata a las galletas por $CURRENT$",
+    "description": "",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "optionShowTopDom": {
+    "message": "Mostrar solo los principales dominios",
+    "description": ""
+  },
+  
+  "optionshowAllCok": {
+    "message": "Listar todas las cookies",
+    "description": ""
+  },
+  
+  "optionIngoreSite": {
+    "message": "Lista de sitios ignorados",
+    "description": ""
+  }
+  
+}

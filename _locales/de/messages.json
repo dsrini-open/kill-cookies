@@ -1,0 +1,64 @@
+{
+  "emptyCookies": {
+    "message": "Keine Cookies in der Sitzung.",
+    "description": ""
+  },
+  
+  "extensionName": {
+    "message": "Töte Cookies für den Browser",
+    "description": ""
+  },
+
+  "extensionDescription": {
+    "message": "Erlaubt dem Benutzer, Cookies durch Auswahl / alle zu töten",
+    "description": ""
+  },
+  
+  "killAllCookies": {
+    "message": "Töte alle Cookies",
+    "description": ""
+  },
+  
+  "killAllButIgnored": {
+    "message": "Töte alle außer Ignoriert",
+    "description": ""
+  },
+  
+  "killAllButCurrent": {
+    "message": "Töte alle außer $CURRENT$",
+    "description": "",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "killCurrent": {
+    "message": "Töte Cookies für $CURRENT$",
+    "description": "",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "optionShowTopDom": {
+    "message": "Zeige nur Top-Domains",
+    "description": ""
+  },
+  
+  "optionshowAllCok": {
+    "message": "Alle Cookies auflisten?",
+    "description": ""
+  },
+  
+  "optionIngoreSite": {
+    "message": "Liste der ignorierten Sites",
+    "description": ""
+  }
+  
+}

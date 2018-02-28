@@ -1,0 +1,56 @@
+html, body {
+  width: 275px;
+  height: auto;
+}
+
+.panel {
+  	padding: 5px;
+}
+
+.hidden {
+  	display: none
+}
+
+img {
+	margin: 0px 2px;
+	height: 19px;
+	width: 19px;
+}
+
+.button {
+    padding: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    border:1px solid #ffffff;
+  	margin-bottom: 2px;
+
+    max-width:250px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+.button:hover {
+	color: blue;
+    border-radius: 2px;
+}
+
+.child-button{
+	 text-indent: 5px;
+	 color: black;
+}
+
+.child-button:hover{
+	color: blue;
+	text-indent: 5px;
+}
+
+.unfold {
+	background: url("/icons/bullet_arrow_down.png") left center no-repeat;
+	padding-left: 15px;
+}
+
+.fold {
+	background: url("/icons/bullet_arrow_up.png") left center no-repeat;
+	padding-left: 15px;
+}

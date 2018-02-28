@@ -1,0 +1,74 @@
+{
+  "emptyCookies": {
+    "message": "No cookies in session.",
+    "description": "Empty list of cookies message."
+  },
+  
+  "extensionName": {
+    "message": "Kill Cookies for the browser",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Allows user to kill cookies by selection / all / based on web-page urls / all (but ignored sites). Configure the ignore sites in option page by comma seperated list of web-page domains. Additional configurations for displaying only top domains (ignore specific cookies), show all cookies (if not only displays current page cookies), display 'Kill all but current web-apge' and 'Kill all for current web-page' options.",
+    "description": "Description of the extension."
+  },
+  
+  "killAllCookies": {
+    "message": "Kill All Cookies",
+    "description": "Message displaying to kill all cookies."
+  },
+  
+  "killAllButIgnored": {
+    "message": "Kill All but Ignored",
+    "description": "Message displaying to kill all cookies but ignored webpages."
+  },
+  
+  "killAllButCurrent": {
+    "message": "Kill All but $CURRENT$",
+    "description": "Message displaying to kill all cookies but current webpage.",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "killCurrent": {
+    "message": "Kill Cookies for $CURRENT$",
+    "description": "Message displaying to kill cookies for current webpage.",
+    "placeholders": {
+      "current" : {
+        "content" : "$1",
+        "example" : "mozilla.org"
+      }
+    }
+  },
+  
+  "optionShowTopDom": {
+    "message": "Only show top domains",
+    "description": "Property to show only the top domain of a webpage"
+  },
+  
+  "optionShowAllCok": {
+    "message": "List all cookies?",
+    "description": "Property to display cookies for all webpages"
+  },
+  
+  "optionIngoreSite": {
+    "message": "List of Ignored Sites (comma separated)",
+    "description": "Property to save ignored sites"
+  },
+  
+  "optionShowKillCur": {
+    "message": "Display 'Kill Current web-page' option?",
+    "description": "Property to display cookies for all webpages"
+  },
+  
+  "optionShowKillAllBCur": {
+    "message": "Display 'Kill All But Current' option?",
+    "description": "Property to save ignored sites"
+  }
+  
+}
