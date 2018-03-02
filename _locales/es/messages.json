@@ -1,64 +1,62 @@
 {
   "emptyCookies": {
-    "message": "Sin cookies en sesión.",
-    "description": ""
+    "description": "",
+    "message": "Sin cookies en sesión."
   },
-  
-  "extensionName": {
-    "message": "Mata a las cookies para el navegador",
-    "description": ""
-  },
-
   "extensionDescription": {
-    "message": "Permite al usuario matar las cookies por selección / todo",
-    "description": ""
+    "description": "",
+    "message": "Permite al usuario eliminar las cookies por selección / todo / en función de las URL de la página web / todos (pero los sitios ignorados). Configure los sitios de ignorar en la página de opciones mediante una lista separada por comas de dominios de páginas web. Configuraciones adicionales para mostrar solo los principales dominios (ignorar cookies específicas), mostrar todas las cookies (si no solo muestra las cookies de la página actual), mostrar las opciones 'Eliminar todo, excepto la aplicación web actual' y 'Eliminar todo para la página web actual'."
   },
-  
-  "killAllCookies": {
-    "message": "Mata a todas las galletas",
-    "description": ""
+  "extensionName": {
+    "description": "",
+    "message": "Mata a las cookies para el navegador"
   },
-  
-  "killAllButIgnored": {
-    "message": "Mata a todos menos ignorados",
-    "description": ""
-  },
-  
   "killAllButCurrent": {
+    "description": "",
     "message": "Mata a todos menos $CURRENT$",
-    "description": "",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
+  "killAllButIgnored": {
+    "description": "",
+    "message": "Mata a todos menos ignorados"
+  },
+  "killAllCookies": {
+    "description": "",
+    "message": "Mata a todas las galletas"
+  },
   "killCurrent": {
-    "message": "Mata a las galletas por $CURRENT$",
     "description": "",
+    "message": "Mata a las galletas por $CURRENT$",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
-  "optionShowTopDom": {
-    "message": "Mostrar solo los principales dominios",
-    "description": ""
-  },
-  
-  "optionshowAllCok": {
-    "message": "Listar todas las cookies",
-    "description": ""
-  },
-  
   "optionIngoreSite": {
-    "message": "Lista de sitios ignorados",
-    "description": ""
+    "description": "",
+    "message": "Lista de sitios ignorados"
+  },
+  "optionShowKillAllBCur": {
+    "description": "",
+    "message": "Mostrar la opción 'Kill All But Current'?"
+  },
+  "optionShowKillCur": {
+    "description": "",
+    "message": "Mostrar la opción 'Kill Current web-page'?"
+  },
+  "optionShowTopDom": {
+    "description": "",
+    "message": "Mostrar solo los principales dominios"
+  },
+  "optionshowAllCok": {
+    "description": "",
+    "message": "Listar todas las cookies"
   }
-  
 }

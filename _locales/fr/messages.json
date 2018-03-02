@@ -1,64 +1,62 @@
 {
   "emptyCookies": {
-    "message": "Pas de cookies en session.",
-    "description": ""
+    "description": "",
+    "message": "Pas de cookies en session."
   },
-  
-  "extensionName": {
-    "message": "Tuer des cookies pour le navigateur",
-    "description": ""
-  },
-
   "extensionDescription": {
-    "message": "Permet ?'utilisateur de tuer les cookies par s?ction / tout",
-    "description": ""
+    "description": "",
+    "message": "Permet à l'utilisateur de tuer les cookies en sélectionnant / all / basé sur les URL de la page web / all (mais les sites ignorés). Configurez les sites ignorés dans la page d'options par une liste séparée par des virgules de domaines de pages Web. Configurations supplémentaires pour afficher uniquement les domaines supérieurs (ignorer les cookies spécifiques), afficher tous les cookies (si non seulement afficher les cookies actuels), afficher les options 'Tuer tout sauf web-apge' et 'Tuer tout pour la page web actuelle'."
   },
-  
-  "killAllCookies": {
-    "message": "Tuer tous les cookies",
-    "description": ""
+  "extensionName": {
+    "description": "",
+    "message": "Tuer des cookies pour le navigateur"
   },
-  
-  "killAllButIgnored": {
-    "message": "Tuer tout mais ignor?",
-    "description": ""
-  },
-  
   "killAllButCurrent": {
+    "description": "",
     "message": "Tuer tout sauf $CURRENT$",
-    "description": "",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
+  "killAllButIgnored": {
+    "description": "",
+    "message": "Tuer tout mais ignor?"
+  },
+  "killAllCookies": {
+    "description": "",
+    "message": "Tuer tous les cookies"
+  },
   "killCurrent": {
-    "message": "Tuer des biscuits pour $CURRENT$",
     "description": "",
+    "message": "Tuer des biscuits pour $CURRENT$",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
-  "optionShowTopDom": {
-    "message": "Afficher uniquement les domaines sup?eurs",
-    "description": ""
-  },
-  
-  "optionshowAllCok": {
-    "message": "Lister tous les cookies?",
-    "description": ""
-  },
-  
   "optionIngoreSite": {
-    "message": "Liste des sites ignorés",
-    "description": ""
+    "description": "",
+    "message": "Liste des sites ignorés"
+  },
+  "optionShowKillAllBCur": {
+    "description": "",
+    "message": "Afficher 'Kill All But Current' option?"
+  },
+  "optionShowKillCur": {
+    "description": "",
+    "message": "Afficher l'option 'Kill Current-page'?"
+  },
+  "optionShowTopDom": {
+    "description": "",
+    "message": "Afficher uniquement les domaines sup?eurs"
+  },
+  "optionshowAllCok": {
+    "description": "",
+    "message": "Lister tous les cookies?"
   }
-  
 }

@@ -1,64 +1,62 @@
 {
   "emptyCookies": {
-    "message": "Keine Cookies in der Sitzung.",
-    "description": ""
+    "description": "",
+    "message": "Keine Cookies in der Sitzung."
   },
-  
-  "extensionName": {
-    "message": "Töte Cookies für den Browser",
-    "description": ""
-  },
-
   "extensionDescription": {
-    "message": "Erlaubt dem Benutzer, Cookies durch Auswahl / alle zu töten",
-    "description": ""
+    "description": "",
+    "message": "Ermöglicht dem Benutzer, Cookies durch Auswahl von / all / basierend auf Webseiten-URLs / alle (aber ignorierten Websites) zu löschen. Konfigurieren Sie die Ignore-Sites auf der Optionsseite nach einer durch Kommas getrennten Liste von Webseitendomänen. Zusätzliche Konfigurationen zum Anzeigen nur der Top-Domains (bestimmte Cookies ignorieren), Anzeigen aller Cookies (wenn nicht nur aktuelle Seiten-Cookies angezeigt werden), Anzeigen der Optionen 'Alle außer aktuelle Web-Apge' und 'Alle für aktuelle Webseite beenden'."
   },
-  
-  "killAllCookies": {
-    "message": "Töte alle Cookies",
-    "description": ""
+  "extensionName": {
+    "description": "",
+    "message": "Töte Cookies für den Browser"
   },
-  
-  "killAllButIgnored": {
-    "message": "Töte alle außer Ignoriert",
-    "description": ""
-  },
-  
   "killAllButCurrent": {
+    "description": "",
     "message": "Töte alle außer $CURRENT$",
-    "description": "",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
+  "killAllButIgnored": {
+    "description": "",
+    "message": "Töte alle außer Ignoriert"
+  },
+  "killAllCookies": {
+    "description": "",
+    "message": "Töte alle Cookies"
+  },
   "killCurrent": {
-    "message": "Töte Cookies für $CURRENT$",
     "description": "",
+    "message": "Töte Cookies für $CURRENT$",
     "placeholders": {
-      "current" : {
-        "content" : "$1",
-        "example" : "mozilla.org"
+      "current": {
+        "content": "$1",
+        "example": "mozilla.org"
       }
     }
   },
-  
-  "optionShowTopDom": {
-    "message": "Zeige nur Top-Domains",
-    "description": ""
-  },
-  
-  "optionshowAllCok": {
-    "message": "Alle Cookies auflisten?",
-    "description": ""
-  },
-  
   "optionIngoreSite": {
-    "message": "Liste der ignorierten Sites",
-    "description": ""
+    "description": "",
+    "message": "Liste der ignorierten Sites"
+  },
+  "optionShowKillAllBCur": {
+    "description": "",
+    "message": "Anzeige 'Töte alle außer aktuellen' Option?"
+  },
+  "optionShowKillCur": {
+    "description": "",
+    "message": "Anzeige 'Kill Current web-page' -Option?"
+  },
+  "optionShowTopDom": {
+    "description": "",
+    "message": "Zeige nur Top-Domains"
+  },
+  "optionshowAllCok": {
+    "description": "",
+    "message": "Alle Cookies auflisten?"
   }
-  
 }
