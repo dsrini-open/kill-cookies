@@ -5,7 +5,7 @@
   },
   "extensionDescription": {
     "description": "",
-    "message": "Ermöglicht dem Benutzer, Cookies durch Auswahl von / all / basierend auf Webseiten-URLs / alle (aber ignorierten Websites) zu löschen. Konfigurieren Sie die Ignore-Sites auf der Optionsseite nach einer durch Kommas getrennten Liste von Webseitendomänen. Zusätzliche Konfigurationen zum Anzeigen nur der Top-Domains (bestimmte Cookies ignorieren), Anzeigen aller Cookies (wenn nicht nur aktuelle Seiten-Cookies angezeigt werden), Anzeigen der Optionen 'Alle außer aktuelle Web-Apge' und 'Alle für aktuelle Webseite beenden'."
+    "message": "Ermöglicht dem Benutzer, Cookies durch Auswahl von/all/basierend auf Webseiten-URLs/alle (aber ignorierten Websites) zu löschen. Konfigurieren Sie die Ignorieren-Sites (durch kommagetrennte Webseiten-Domains) und andere mithilfe der Optionsseite."
   },
   "extensionName": {
     "description": "",

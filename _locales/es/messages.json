@@ -5,7 +5,7 @@
   },
   "extensionDescription": {
     "description": "",
-    "message": "Permite al usuario eliminar las cookies por selección / todo / en función de las URL de la página web / todos (pero los sitios ignorados). Configure los sitios de ignorar en la página de opciones mediante una lista separada por comas de dominios de páginas web. Configuraciones adicionales para mostrar solo los principales dominios (ignorar cookies específicas), mostrar todas las cookies (si no solo muestra las cookies de la página actual), mostrar las opciones 'Eliminar todo, excepto la aplicación web actual' y 'Eliminar todo para la página web actual'."
+    "message": "Permite al usuario eliminar las cookies por selección / todo / en función de las URL de la página web / todos (pero los sitios ignorados). Configure los sitios de ignorar (mediante dominios de página web separados por comas) la página de opciones."
   },
   "extensionName": {
     "description": "",

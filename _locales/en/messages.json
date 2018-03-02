@@ -5,7 +5,7 @@
   },
   "extensionDescription": {
     "description": "Description of the extension.",
-    "message": "Allows user to kill cookies by selection / all / based on web-page urls / all (but ignored sites). Configure the ignore sites in option page by comma seperated list of web-page domains. Additional configurations for displaying only top domains (ignore specific cookies), show all cookies (if not only displays current page cookies), display 'Kill all but current web-apge' and 'Kill all for current web-page' options."
+    "message": "Allows user to kill cookies by selection / all / based on web-page urls / all (but ignored sites). Configure the ignore sites (by a comma separated web-page domains) and others using the options page."
   },
   "extensionName": {
     "description": "Name of the extension.",

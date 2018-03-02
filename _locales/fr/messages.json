@@ -5,7 +5,7 @@
   },
   "extensionDescription": {
     "description": "",
-    "message": "Permet à l'utilisateur de tuer les cookies en sélectionnant / all / basé sur les URL de la page web / all (mais les sites ignorés). Configurez les sites ignorés dans la page d'options par une liste séparée par des virgules de domaines de pages Web. Configurations supplémentaires pour afficher uniquement les domaines supérieurs (ignorer les cookies spécifiques), afficher tous les cookies (si non seulement afficher les cookies actuels), afficher les options 'Tuer tout sauf web-apge' et 'Tuer tout pour la page web actuelle'."
+    "message": "Permet à l'utilisateur de tuer les cookies en sélectionnant / all / basé sur les URL de la page web / all (mais les sites ignorés). Configurez les sites ignorés (par des domaines de pages Web séparés par des virgules) de la page d'options."
   },
   "extensionName": {
     "description": "",
