@@ -30,6 +30,7 @@
     "browsingData",
     "cookies",
     "storage",
+    "privacy",
     "<all_urls>",
     "tabs"
   ],
